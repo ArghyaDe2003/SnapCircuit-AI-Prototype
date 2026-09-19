@@ -1,0 +1,19 @@
+# Python / Backend
+venv/
+__pycache__/
+*.pyc
+.env
+*.db
+snapcircuit-backend/venv/
+
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+snapcircuit-frontend/node_modules/
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
