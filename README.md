@@ -8,7 +8,7 @@ This repository contains a full-stack proof-of-concept demonstrating how compute
 
 ## 🚀 Features
 
-![Live UI Demo](assets/demo.webp)
+![Live UI Demo](assets/demo_v2.webp)
 
 - **Real-Time Vision Simulation:** Simulates object detection bounding boxes for circuit components (VCC, GND, Resistors, LEDs).
 - **Rule-Based Engine:** Validates circuit topologies using Kirchoff's laws to detect:
