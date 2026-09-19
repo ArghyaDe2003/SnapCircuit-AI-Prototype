@@ -1,9 +1,18 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0a0f1a;
+  --color-surface: #111827;
+  --color-primary: #38bdf8;
+  --color-error: #f87171;
+  --font-family-sans: 'Inter', sans-serif;
+}
 
 @layer base {
   body {
-    @apply bg-background text-gray-100 font-sans antialiased;
+    background-color: var(--color-background);
+    color: #f3f4f6;
+    font-family: var(--font-family-sans);
+    -webkit-font-smoothing: antialiased;
   }
 }
