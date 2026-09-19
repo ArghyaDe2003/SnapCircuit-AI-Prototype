@@ -36,7 +36,7 @@ function App() {
         const newData = [...prev.slice(1)];
         let nextVal = 50 + (Math.random() * 20 - 10);
         if (loading) nextVal = 80 + Math.random() * 20; 
-        if (!isGood && !loading) {
+        if (selectedScenario !== 'correct_led' && !loading) {
           if (selectedScenario === 'open_connection') nextVal = 5 + Math.random() * 5; 
           else nextVal = 90 + Math.random() * 10; 
         }
@@ -45,7 +45,7 @@ function App() {
       });
     }, 150);
     return () => clearInterval(interval);
-  }, [loading, isGood, selectedScenario]);
+  }, [loading, selectedScenario]);
 
   // Initialize Webcam
   useEffect(() => {
