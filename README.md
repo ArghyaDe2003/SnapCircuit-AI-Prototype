@@ -29,7 +29,7 @@ python -m venv venv
 # Activate the virtual environment:
 # Windows: venv\Scripts\activate
 # Mac/Linux: source venv/bin/activate
-pip install fastapi uvicorn pydantic
+pip install -r requirements.txt
 python -m uvicorn main:app --reload --port 8000
 ```
 
