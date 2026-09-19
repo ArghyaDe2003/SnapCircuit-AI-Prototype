@@ -1,6 +1,6 @@
 # SnapCircuit AI Prototype ⚡
 
-![UI Preview](https://github.com/ArghyaDe2003/SnapCircuit-AI-Prototype/assets/placeholder_image)
+![SnapCircuit Lab Banner](assets/banner.jpg)
 
 **An Edge AI circuit validation prototype built for the Snapdragon AI Lab Build & Present Challenge 2026.**
 
