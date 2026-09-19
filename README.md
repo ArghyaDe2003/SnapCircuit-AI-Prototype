@@ -7,6 +7,9 @@
 This repository contains a full-stack proof-of-concept demonstrating how computer vision and rule-based AI can be leveraged on edge devices to validate hardware circuits in real-time.
 
 ## 🚀 Features
+
+![Live UI Demo](assets/demo.webp)
+
 - **Real-Time Vision Simulation:** Simulates object detection bounding boxes for circuit components (VCC, GND, Resistors, LEDs).
 - **Rule-Based Engine:** Validates circuit topologies using Kirchoff's laws to detect:
   - Reversed LED Polarities
